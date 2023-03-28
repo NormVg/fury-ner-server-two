@@ -2,3 +2,4 @@ torch
 spacy
 flask
 nltk
+Gunicorn
