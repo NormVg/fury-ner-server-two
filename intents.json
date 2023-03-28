@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "no-reply",
+      "patterns": [""," "],
+      "responses": "000"
+    },
+    {
+      "tag": "movie-random",
+      "patterns": ["play a movie","play some movie","play a picture","play any movie","put any movie"],
+      "responses": "movie-random"
+    },
+    {
+      "tag": "music-command",
+      "patterns": ["play bella songs","play bella","playing bella songs","play the bella song fury","play void songs","play songs of bella","play music of bella","play music"],
+      "responses": "music-command"
+    },
+    {
+      "tag": "music-random",
+      "patterns": ["poori uncle just play music","play some music","play a song","play any song","fury uncle just play music","play the song fury"],
+      "responses": "music-random"
+    },
+    {
+      "tag": "movie-command",
+      "patterns": ["play movie","play iron man movie","play john wick movie","play endgame movie"],
+      "responses": "movie-command"
+    }
+  ]
+}
